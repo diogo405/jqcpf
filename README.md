@@ -1,5 +1,5 @@
-jqcpf.js
-=========
+jqcpf
+================
 
 JQuery plugin para validar CPF.
 
