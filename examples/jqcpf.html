@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script type="text/javascript" src="../src/jquery.cpf.js"></script>
+	<script>
+	$(document).ready(function(){
+		$('#cpf').cpf({
+			ok: function(cpf) {
+				alert('cpf '+cpf+' ok!');
+			}
+			,nok: function(cpf) {
+				alert('cpf '+cpf+' nok :(');
+			}
+		})
+	});
+	</script>
+</head>
+<body>
+	CPF: <input id="cpf">
+</body>
+</html>
